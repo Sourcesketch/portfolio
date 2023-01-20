@@ -16,3 +16,20 @@
 .content-hero > p {
     color: azure;
 }
+
+.nav-item {
+    list-style-type: none;
+}
+
+.bottom {
+    background-color: #4CE5AE;
+}
+
+.d-flex {
+    padding-top: 0.8rem;
+}
+
+.footer-content{
+   justify-content: space-between;
+   padding-bottom: 0.8rem;
+}
