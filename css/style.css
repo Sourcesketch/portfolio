@@ -1,0 +1,35 @@
+.hero {
+    background-image: url(../img/hero-img.png);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+     
+}
+.content-hero {
+    position: absolute;
+
+}
+.content-hero > h1 {
+    color: #4CE5AE;
+
+}
+.content-hero > p {
+    color: azure;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.bottom {
+    background-color: #4CE5AE;
+}
+
+.d-flex {
+    padding-top: 0.8rem;
+}
+
+.footer-content{
+   justify-content: space-between;
+   padding-bottom: 0.8rem;
+}
