@@ -33,3 +33,83 @@
    justify-content: space-between;
    padding-bottom: 0.8rem;
 }
+
+.container{
+    justify-content: space-between;
+}
+
+.carousel {
+    padding: 15rem 0;
+    width: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #4CE5AE;
+}
+
+.carousel-inner{
+    width: 900px;
+    
+}
+.btn-primary {
+    color: #1D1D28;
+    background-color: #4CE5AE;
+    border-color: #4CE5AE;
+}
+
+.btn-primary:hover {
+    color: #1D1D28;
+    background-color: #42c092;
+    border-color: #42c092);
+}
+
+.btn-outline-primary {
+    color: #4CE5AE;
+    border-color: #4CE5AE;
+}
+.btn-outline-primary:hover {
+    color: #1D1D28;
+    background-color: #4CE5AE;
+    border-color: #4CE5AE;
+}
+
+.projects{
+    color: white;
+}
+
+.projects > span{
+    color: #4CE5AE;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-flex;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #4CE5AE;
+    border-radius: 50%;
+    background-size: 60% 60%;
+    
+    cursor: pointer;
+    
+}
+
+.carousel-control-next-icon:before,
+.carousel-control-prev-icon:before {
+  content: "";
+  position: absolute;
+  display: inline-flex;
+  width: 12px;
+  height: 12px;
+}
+
+
+.carousel-control-next-icon:before,
+.carousel-control-prev-icon:before {
+   content: "";
+   position: absolute;
+   display: inline-flex;
+   width: 12px;
+   height: 12px;
+}
+
