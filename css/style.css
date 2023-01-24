@@ -1,97 +1,93 @@
 .hero {
-    background-image: url(../img/hero-img.png);
-    background-size: cover;
-    min-height: 100vh;
-    position: relative;
-     
+  background-image: url(../img/hero-img.png);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
 }
 .content-hero {
-    position: absolute;
-
+  position: absolute;
 }
 .content-hero > h1 {
-    color: #4CE5AE;
-
+  color: #4ce5ae;
 }
 .content-hero > p {
-    color: azure;
+  color: azure;
 }
 
 .nav-item {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .bottom {
-    background-color: #4CE5AE;
+  background-color: #4ce5ae;
 }
 
 .d-flex {
-    padding-top: 0.8rem;
+  padding-top: 0.8rem;
 }
 
-.footer-content{
-   justify-content: space-between;
-   padding-bottom: 0.8rem;
+.footer-content {
+  justify-content: space-between;
+  padding-bottom: 0.8rem;
 }
 
-.container{
-    justify-content: space-between;
+.container {
+  justify-content: space-between;
 }
 
 .carousel {
-    padding: 15rem 0;
-    width: 100%;
+  padding: 4rem 0;
+  width: 100%;
 }
 
 .carousel-indicators [data-bs-target] {
-    background-color: #4CE5AE;
+  background-color: #4ce5ae;
 }
 
-.carousel-inner{
-    width: 900px;
-    
-}
 .btn-primary {
-    color: #1D1D28;
-    background-color: #4CE5AE;
-    border-color: #4CE5AE;
+  color: #1d1d28;
+  background-color: #4ce5ae;
+  border-color: #4ce5ae;
 }
 
 .btn-primary:hover {
-    color: #1D1D28;
-    background-color: #42c092;
-    border-color: #42c092);
+  color: #1d1d28;
+  background-color: #42c092;
+  border-color: #42c092;
 }
 
 .btn-outline-primary {
-    color: #4CE5AE;
-    border-color: #4CE5AE;
+  color: #4ce5ae;
+  border-color: #4ce5ae;
 }
 .btn-outline-primary:hover {
-    color: #1D1D28;
-    background-color: #4CE5AE;
-    border-color: #4CE5AE;
+  color: #1d1d28;
+  background-color: #4ce5ae;
+  border-color: #4ce5ae;
 }
 
-.projects{
-    color: white;
+.robotcarousel {
+  padding-bottom: 0;
+}
+.projects {
+  color: white;
 }
 
-.projects > span{
-    color: #4CE5AE;
+.projects > span {
+  color: #4ce5ae;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    display: inline-flex;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    background-color: #4CE5AE;
-    border-radius: 50%;
-    background-size: 60% 60%;
-    
-    cursor: pointer;
-    
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #4ce5ae;
+  border-radius: 50%;
+  background-size: 60% 60%;
+
+  cursor: pointer;
 }
 
 .carousel-control-next-icon:before,
@@ -103,13 +99,38 @@
   height: 12px;
 }
 
-
 .carousel-control-next-icon:before,
 .carousel-control-prev-icon:before {
-   content: "";
-   position: absolute;
-   display: inline-flex;
-   width: 12px;
-   height: 12px;
+  content: "";
+  position: absolute;
+  display: inline-flex;
+  width: 12px;
+  height: 12px;
 }
 
+.carousel-indicators {
+  position: relative;
+  padding: 3rem;
+}
+
+.btn {
+  padding: 1rem 4rem;
+}
+
+.profile-content {
+  padding: 4rem;
+}
+
+.profile-content > h1 {
+  margin-bottom: 24px;
+}
+
+.profile-content > p {
+  margin-bottom: 38px;
+  color: white;
+}
+.hammad {
+  background-color: #353544;
+  padding: 0;
+  background-clip: padding-box;
+}
