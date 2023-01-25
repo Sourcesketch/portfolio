@@ -4,6 +4,18 @@
   min-height: 100vh;
   position: relative;
 }
+.hero-prod{
+  background-image: url(../img/products-bg.png);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+.lc-block{
+    color: white;
+}
+.fw-bold > span{
+    color: #4ce5ae;
+}
 .content-hero {
   position: absolute;
 }
@@ -133,4 +145,15 @@
   background-color: #353544;
   padding: 0;
   background-clip: padding-box;
+}
+
+.img-content{
+    padding: 4rem 0;
+}
+
+/* social-media-icons */
+
+
+.navbar-brand{
+    cursor: pointer;
 }
