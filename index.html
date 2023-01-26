@@ -11,11 +11,13 @@
     <link rel="icon" type="image/x-icon" href="./img/fac-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Hello, world!</title>
+    <title>Portfolio</title>
   </head>
   <body>
     <header>
@@ -65,61 +67,12 @@
       </nav>
     </header>
     <!--hero section -->
-    <!-- <section
-      class="hero color-overlay d-flex justify-content-center align-item-center"
-    >
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img
-              src="#"
-              class="d-block mx-lg-auto img-fluid"
-              alt=""
-              loading="lazy"
-            />
-          </div>
-          <div class="col-lg-6">
-            <div class="lc-block mb-3">
-              <div editable="rich">
-                <h2 class="fw-bold display-5">
-                  <span>Design breathes new life into tales.</span>
-                </h2>
-              </div>
-            </div>
-
-            <div class="lc-block mb-3">
-              <div editable="rich">
-                <p class="lead">
-                  Great design is key in business.Our methodology is permeated
-                  by our design-centric organization/culture.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-    <!-- <div class="container">
-        <div
-          class="content-hero justify-content-center"
-          style="margin-top: 250px"
-        >
-          <h1 class="col-6">Design breathes new life into tales.</h1>
-          <p class="col-6">
-            Great design is key in business.Our methodology is permeated by our
-            design-centric organization/culture.
-          </p>
-        </div>
-      </div> -->
-    <!-- </section> -->
-
     <section class="hero" id="hero-section">
       <div class="container hero-container">
         <div class="row align-items-center hero-row">
           <div class="col-6">
             <div class="content-hero">
-              <h1>
-                Design breathes new life into tales.
-              </h1>
+              <h1>Design breathes new life into tales.</h1>
               <p>
                 Great design is key in business. <br />
                 Our methodology is permeated by our design-centric
@@ -140,14 +93,17 @@
     </section>
 
     <!--case study section -->
-    <section>
-      <div class="container d-flex col-xxl-8 px-4 py-5">
-        <h1 class="projects">// Projects : <span>Case Study</span></h1>
+    <section class="section case-study" id="case-study">
+      <div class="container d-flex justify-content-between">
+        <h2 class="projects">// Projects : <span>Case Study</span></h2>
         <button type="button" class="btn btn-outline-primary">See all</button>
       </div>
-
-      <div id="robotcarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="container d-flex justify-content-center">
+      <div
+        id="robotcarousel"
+        class="carousel slide caseStudy-carousel"
+        data-bs-ride="carousel"
+      >
+        <div class="container">
           <div class="carousel-inner">
             <div class="carousel-item">
               <img class="d-block w-100" src="./img/sifinx.png" alt="swamp" />
@@ -199,37 +155,46 @@
       </div>
     </section>
     <!--profile section -->
-    <section class="hammad">
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-lg-6">
-            <div class="lc-block mb-3">
-              <div editable="rich">
-                <h2 class="fw-bold display-5">
-                  <span>From Idea to Reality:</span> brThe Story of Our Success
-                </h2>
-              </div>
-            </div>
-
-            <div class="lc-block mb-3">
-              <div editable="rich">
-                <p class="lead">
-                  Briefly outline the case to identify its significance. State
-                  the report's aim(s). Provide the organization of the main
-                  ideas in the report. Briefly describe the key problem and its
-                  significance.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-10 col-sm-8 col-lg-6">
+    <section class="section profile" id="profile">
+      <div class="container d-flex justify-content-start">
+        <div class="row">
+          <h2 class="profile-content">// Hammad : <span>Profile</span></h2>
+        </div>
+      </div>
+      <div class="container profile-inner-container">
+        <div class="row align-items-center">
+          <div class="col-6">
             <img
               src="./img/Ellipse 3.png"
               class="d-block mx-lg-auto img-fluid"
               alt=""
               loading="lazy"
             />
+          </div>
+          <div class="col-6">
+            <div class="mb-3">
+              <div editable="rich">
+                <h2>My name is Hammad, and I work as a Product Designer.</h2>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div editable="rich">
+                <p class="lead">
+                  I've spent the last 6 years fostering happy teams and
+                  inventing products that bring people together. I have a wide
+                  range of skills and experience in product design, user
+                  experience, and visual design. I'm always looking for new
+                  opportunities to learn and grow as a designer.
+                </p>
+              </div>
+              <div class="mt-2 d-flex align-items-center">
+                <button type="button" class="btn btn-light">See all</button>
+                <button class="btn btn-light small-btn"></button>
+                <button class="btn btn-light small-btn"></button>
+                <button class="btn btn-light small-btn"></button>
+                <button class="btn btn-light small-btn"></button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
