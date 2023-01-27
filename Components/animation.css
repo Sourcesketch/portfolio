@@ -1,0 +1,39 @@
+.draw {
+  animation: draw 4000ms ease-in-out infinite;
+  stroke: #4ce5ae;
+  padding: 3rem;
+  position: relative;
+  top: 266px;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 0 400;
+    stroke-dashoffset: 200;
+    fill-opacity: 0;
+    stroke-width: 4;
+  }
+  37% {
+    stroke-dasharray: 200 0;
+    stroke-dashoffset: 200;
+    fill-opacity: 0;
+    stroke-width: 1.2;
+  }
+  50% {
+    fill-opacity: 1;
+    stroke-width: 0;
+  }
+  100% {
+    fill-opacity: 1;
+    stroke-width: 0;
+  }
+}
+
+h2 {
+  margin: 20px;
+  color: #4ce5ae;
+}
+
+body {
+  background-color: #1d1d28;
+}
