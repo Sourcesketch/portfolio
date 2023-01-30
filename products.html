@@ -9,91 +9,101 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="icon" type="image/x-icon" href="./img/fac-icon.png" />
-    <title>Products</title>
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet" />
+    <title>Portfolio</title>
+</head>
   <body>
     <header>
-      <nav
-        class="navbar navbar-expand-lg fixed-top navbar-dark p-3 navbar-wrapper"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html"
-            ><img src="./img/SS-logo.svg" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark p-3 navbar-wrapper">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img src="./img/SS-logo.svg" alt="" /></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a
-                  class="nav-link mx-2 active"
-                  aria-current="page"
-                  href="./products.html"
-                  
-                  >Products</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="#about">About us</a>
-              </li>
-
-              <button
-                class="btn btn-primary"
-                style="margin-left: 38px"
-                type="submit"
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                          <a class="nav-link mx-2" aria-current="page" href="./products.html">Products</a
               >
-                Hello!
-              </button>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!--hero section -->
-    <section class="hero-prod">
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img
-              src="./img/prod-image.png"
-              class="d-block mx-lg-auto img-fluid"
-              alt=""
-              loading="lazy"
-            />
-          </div>
-          <div class="col-lg-6">
-            <div class="lc-block mb-3">
-              <div editable="rich">
-                <h2 class="fw-bold display-5">
-                  <span>From Idea to Reality:</span> brThe Story of Our Success
-                </h2>
-              </div>
-            </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">About us</a>
+                      </li>
 
-            <div class="lc-block mb-3">
-              <div editable="rich">
-                <p class="lead">
-                  Briefly outline the case to identify its significance. State
-                  the report's aim(s). Provide the organization of the main
-                  ideas in the report. Briefly describe the key problem and its
-                  significance.
-                </p>
+                      <button class="btn btn-primary" style="margin-left: 38px" type="submit">
+              Hello!
+            </button>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+   <!--hero section -->
+   <section class="hero prod-hero" id="hero-section">
+    <div class="container hero-container">
+        <div class="row align-items-center hero-row">
+            <div class="col-6">
+                <div class="content-hero">
+                    <h1>From Idea to Reality:<br/>
+                      <span>The Story of Our Success</span></h1>
+                    <p>
+                      Briefly outline the case to identify its significance. State the report's aim(s). Provide the organization of the main ideas in the report. Briefly describe the key problem and its significance
+                    </p>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="./img/prod-image.png" class="d-block mx-lg-auto img-fluid" alt="" loading="lazy" />
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- product overview -->
+   <section class="section product-overview" id="prod-overview-section">
+      <div class="product-overview-header">
+        <div class="container d-flex justify-content-between">
+          <h2 class="projects">// Baltoro</h2>
+          <button type="button" class="btn btn-light learn-more">Learn more</button>
+      </div>
+      </div>
+      <div class="product-overview-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-6">
+                  <div class="row mb-3">
+                    <div class="col-4">
+                      <img src="./img/baltoro-logo.png"/>
+                    </div>
+                    <div class="col-8">
+                      <div class="design-system">
+                         <div class="branding"></div>
+                         <div class="research"></div>
+                         <div class="ui-design"></div>
+                         <div class="animations"></div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="role-summary"></div>
+                  </div>
+                 </div>
+                 <div class="col-6">
+                  <div class="col-12">
+                    <div class="mockup"></div>
+                  </div>
+                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+   </section>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
