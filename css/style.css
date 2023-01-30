@@ -2,6 +2,10 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
+body {
+    background-color: #1d1d28;
+}
+
 
 /* global classes */
 
@@ -330,6 +334,89 @@
 /* .img-content {
   padding: 4rem 0;
 } */
+
+
+/* Baltoro-Screen */
+
+.B-title {
+    color: #ffffff;
+    height: 600px;
+    width: 100%;
+}
+
+.roles {
+    justify-content: space-between;
+}
+
+.summary {
+    padding: 2rem;
+    background-color: #4CE5AE;
+    border-radius: 8px;
+}
+
+.summary>span {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.summary>p {
+    font-size: 18px;
+}
+
+.platforms {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.platforms>span {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.platforms>ul {
+    font-size: 26px;
+    list-style-type: none;
+    margin-top: 20px;
+    position: absolute;
+    right: 430px;
+}
+
+.main-head {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.m-text {
+    padding: 0 3rem;
+}
+
+.m-text>span {
+    font-size: 76px;
+    font-weight: 700;
+}
+
+.m-text>p {
+    font-size: 24px;
+}
+
+
+/* Interaction */
+
+.section-title {
+    color: #4CE5AE;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.section-title>p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 100;
+    width: 100%;
+}
 
 
 /* footer */
