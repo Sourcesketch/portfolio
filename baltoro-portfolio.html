@@ -9,8 +9,13 @@
     <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
-    <link rel="icon" type="image/x-icon" href="./img/fac-icon.png">
-    <title>Baltoro</title>
+    <link rel="icon" type="image/x-icon" href="./img/fac-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet" />
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -40,80 +45,116 @@
         </nav>
     </header>
     <!-- Title -->
-    <section class="container B-title d-flex align-items-center g-2 py-5">
-        <img src="./img/baltoro-logo.png" class="baltoro-img " alt="">
-        <div class="m-text flex col-4">
-            <span>Baltoro.io</span>
-            <p>Role: UI/Ux Designer / Animations / Interaction Design</p>
+    <section class="section prod-info" id="prod-info">
+        <div class="container B-title d-flex align-items-center">
+            <img src="./img/baltoro-logo.png" class="baltoro-img " alt="">
+            <div class="m-text flex col-4">
+                <span>Baltoro.io</span>
+                <p>Role: UI/Ux Designer / Animations / Interaction Design</p>
+            </div>
         </div>
         </div>
-
     </section>
 
     <!-- Summary -->
-    <section class="container roles d-flex justify-content-between g-2 ">
-        <div class="summary col-6 ">
-            <span class=".main-head">Summary:</span>
-            <p>Challenging the large data system costs a lot of money, even if you have no idea how much storage and memory we want for the project, and you may pay a lot of money for the compute platform. Baltoro aims to bridge the gap between consumers
-                and the finest services for your projects at a set fee.</p>
+    <section class="section head-1">
+        <div class="container roles d-flex justify-content-between">
+            <div class="summary col-6 ">
+                <span class=".main-head">Summary:</span>
+                <p>Challenging the large data system costs a lot of money, even if you have no idea how much storage and memory we want for the project, and you may pay a lot of money for the compute platform. Baltoro aims to bridge the gap between consumers
+                    and the finest services for your projects at a set fee.</p>
+            </div>
+            <div class="platforms col-5 ">
+                <span class=".main-head">Platforms:</span>
+                <ul>
+                    <li>Design System</li>
+                    <li>Marketing Website</li>
+                    <li>UX Design</li>
+                </ul>
+            </div>
         </div>
-        <div class="platforms col-5 ">
-            <span class=".main-head">Platforms:</span>
-            <ul>
-                <li>Design System</li>
-                <li>Marketing Website</li>
-                <li>UX Design</li>
-            </ul>
-        </div>
-
     </section>
 
     <!-- Interaction -->
-    <section class="container interaction g-2 py-5">
-        <div class="section-title">
-            <span>Interaction Design</span>
+    <section class="section interaction" id="interaction">
+        <div class="container section-title">
+            <span id="s-head">Interaction Design</span>
             <p>Interaction design for a Baltoro.io for data storage of AI and ML projects should include: User flows: Design the user flows for common tasks such as uploading data, organizing data, and accessing data. Data visualization: Provide clear and
                 interactive visualizations of data to help users understand and work with their data. Data organization: Offer intuitive ways for users to categorize, tag, and search for their data. Data management: Allow users to manage their data by
                 providing options for editing, deleting, and exporting data. Access controls: Implement access controls to ensure that only authorized users can access the data stored in the app. User feedback: Incorporate feedback mechanisms such as
                 alerts, notifications, and status messages to inform users about the state of their data and the app. Error handling: Provide clear and concise error messages to help users recover from any errors they may encounter while using the app.
                 Responsive design: Ensure that the app is responsive and can be used on various devices and screen sizes. Usability testing: Test the app with real users to validate the interaction design and make improvements where necessary.
             </p>
-        </div>
-        <div id="robotcarousel" class="carousel slide caseStudy-carousel" data-bs-ride="carousel">
-            <div class="container">
-                <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="./img/sifinx.png" alt="swamp" />
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="./img/jobsite.png" alt="swamp" />
-                    </div>
-                    <div class="carousel-item Slide 2">
-                        <img class="d-block w-100" src="./img/paw-for-all.png" alt="swamp" />
-                    </div>
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="./img/baltoro-main.png" alt="flight" />
+
+            <div id="robotcarousel" class="carousel slide caseStudy-carousel" data-bs-ride="carousel">
+                <div class="container">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/sifinx.png" alt="swamp" />
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/jobsite.png" alt="swamp" />
+                        </div>
+                        <div class="carousel-item Slide 2">
+                            <img class="d-block w-100" src="./img/paw-for-all.png" alt="swamp" />
+                        </div>
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/baltoro-main.png" alt="flight" />
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#robotcarousel" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#robotcarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#robotcarousel" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#robotcarousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#robotcarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#robotcarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#robotcarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#robotcarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Visual Design Concepts -->
 
-    <script src="./js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <section class="section vdc" id="vdc">
+        <div class="container vdc-1 d-flex justify-content-between align-items-center">
+            <div class="section-title col-4">
+                <span id="s-head">Visual Design Concepts</span>
+                <p>It was very important to visually communicate the concept of the "typical," a Project data that constantly adjusts based on project scalability and our target audience is not normal user it’s a specific audience to use these dashboards.
+                    Projects are displayed on side nav for easily access and every project data is disturbed into different sections. Another goal is design system are consistence. I wanted to avoid merely presented the sharp and unbalance icon library
+                    and boring listing screens.
+                </p>
+
+            </div>
+            <div id="image-comparison-slider">
+                <img src="./img/baltoro-before.png" alt="before">
+                <div class="img-wrapper">
+                    <img src="./img/baltoro-after.png" alt="after">
+                </div>
+                <span class="label label-before">Before</span>
+                <span class="label label-after">After</span>
+                <div class="handle">
+                    <div class="handle-line"></div>
+                    <div class="handle-circle">
+                        <i class="fas fa-chevron-left"></i>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="handle-line"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="./js/myscripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
