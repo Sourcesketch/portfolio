@@ -382,6 +382,29 @@ body {
     border-radius: 16px;
 }
 
+.b-logo {
+    padding: 1rem 1rem;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 184px;
+    height: 184px;
+}
+
+.design-system .process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.role-summary>span {
+    font-size: 22px;
+    font-weight: 700;
+    color: #FF4444;
+}
+
 
 /* Baltoro-Screen */
 
