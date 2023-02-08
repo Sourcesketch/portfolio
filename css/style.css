@@ -405,6 +405,24 @@ body {
     color: #FF4444;
 }
 
+.p2>span {
+    font-size: 22px;
+    font-weight: 700;
+    color: #FF7A2F;
+}
+
+.p3>span {
+    font-size: 22px;
+    font-weight: 700;
+    color: #446DFF;
+}
+
+.detail-page-4>span {
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFB800;
+}
+
 
 /* Baltoro-Screen */
 
@@ -498,6 +516,12 @@ body {
 .vdc-1>img {
     width: 50%;
     height: 50%;
+}
+
+.branding-layout {
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin-top: 4rem;
 }
 
 
