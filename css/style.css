@@ -532,7 +532,38 @@ body {
   border-radius: 16px;
   margin: 2rem 0px;
 }
+.branding-layout .baltoro-logo {
+  width: 100%;
+}
+.fvd-wrapper {
+  margin-top: 65px;
+}
 
+.section-title .asset-layout {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.asset-layout h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.asset-layout img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.fvd-wrapper.slick-initialized.slick-slider .slick-prev {
+  left: -85px !important;
+}
+.fvd-wrapper.slick-initialized.slick-slider .slick-prev::before,
+.fvd-wrapper.slick-initialized.slick-slider .slick-next::before {
+  color: #4ce5ae;
+  font-size: 30px;
+}
 /* slider */
 
 #image-comparison-slider {
@@ -641,7 +672,6 @@ body {
     --image-comparison-slider-width: 90vw;
   }
 }
-
 /* footer */
 
 .bottom {
@@ -651,4 +681,71 @@ body {
 .footer-content {
   height: 55px;
   width: 100%;
+}
+
+/* visual design slider */
+
+img.fvd-slide {
+  border-radius: 6px;
+}
+.js .slider-single > div:nth-child(1n + 2) {
+  display: none;
+}
+
+.js .slider-single.slick-initialized > div:nth-child(1n + 2) {
+  display: block;
+}
+
+img.main-slide {
+  width: 100%;
+  height: 260px;
+  border-radius: 6px;
+}
+
+.custom-slide {
+  height: 80px;
+  width: 100%;
+  border-radius: 10px;
+  margin-right: 5px;
+  padding: 4px;
+}
+.slider-nav .slick-slide {
+  margin: 20px 10px 20px 0px;
+}
+.slider-single.slick-initialized.slick-slider .slick-prev {
+  left: -45px !important;
+}
+.slider-single.slick-initialized.slick-slider .slick-next {
+  right: -35px !important;
+}
+.slider-single.slick-initialized.slick-slider .slick-prev::before,
+.slider-single.slick-initialized.slick-slider .slick-next::before {
+  color: #4ce5ae;
+  font-size: 25px;
+}
+.slick-slide.slick-current.slick-active.slick-center .custom-slide {
+  border: 1px solid #4ce5ae;
+}
+
+.next-portfolio-section {
+  background-color: #2f2f39;
+}
+
+.main-nextportfolio-wrapper .logo-box {
+  margin-right: 20px;
+}
+
+.main-nextportfolio-wrapper .next-portfolio-title h2 {
+  color: #ffffff;
+  font-size: 66px;
+  font-weight: 700;
+}
+
+.main-nextportfolio-wrapper .next-portfolio-title h4 {
+  color: rgb(255 255 255 / 70%);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.main-nextportfolio-wrapper .btn-action-wrapper {
 }
