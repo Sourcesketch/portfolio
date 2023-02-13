@@ -6,107 +6,19 @@
     <!--  Add the new slick-theme.css if you want the default styling -->
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
     <style>
-        .js .slider-single>div:nth-child(1n + 2) {
-            display: none;
-        }
-
-        .js .slider-single.slick-initialized>div:nth-child(1n + 2) {
-            display: block;
-        }
-
         img {
             width: 100%;
             height: 400px;
             object-fit: cover;
         }
-
-        .custom-slide {
-            border-radius: 20px;
-            height: 200px;
-            object-fit: cover;
-
-        }
-
-        .slider-nav .slick-slide {
-            margin: 20px 5px;
-        }
-
-        .slider-nav .slick-slide {
-            margin: 20px 5px;
-        }
     </style>
 </head>
 
 <body style="background-color: #353544;">
-    <div id="page">
-        <div class="row">
-            <div class="slider slider-single">
-                <div>
-                    <img src="https://images.unsplash.com/photo-1656336659715-dad97d10af6a?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80"
-                        alt="" srcset="">
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1656230776385-c40b3ec3feb7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80"
-                        alt="" srcset="">
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1657143376804-2c8ef7bfa72d?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80"
-                        alt="" srcset="">
-                </div>
-                <div>
-                    <img src="https://images.unsplash.com/photo-1656014816561-8fdaa3c6b11d?crop=100x100entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY2ODM&ixlib=rb-1.2.1&q=80"
-                        alt="" srcset="">
-                </div>
-
-            </div>
-            <div class="slider slider-nav">
-                <div>
-
-                    <img class="custom-slide"
-                        src="https://images.unsplash.com/photo-1656336659715-dad97d10af6a?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80"
-                        srcset="">
-
-                </div>
-                <div>
-                    <img class="custom-slide"
-                        src="https://images.unsplash.com/photo-1656230776385-c40b3ec3feb7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80"
-                        alt="" srcset="">
-                </div>
-                <div>
-                    <img class="custom-slide"
-                        src="https://images.unsplash.com/photo-1657143376804-2c8ef7bfa72d?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80"
-                        alt="" srcset="">
-                </div>
-                <div>
-                    <img class="custom-slide"
-                        src="https://images.unsplash.com/photo-1656014816561-8fdaa3c6b11d?crop=100x100entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY2ODM&ixlib=rb-1.2.1&q=80"
-                        alt="" srcset="">
-                </div>
-                <div>
-                    <img class="custom-slide"
-                        src="https://images.unsplash.com/photo-1657659558323-08b7854ed766?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY3MjA&ixlib=rb-1.2.1&q=80"
-                        alt="" srcset="">
-                </div>
-                <div>
-                    <img class="custom-slide"
-                        src="https://images.unsplash.com/photo-1657182688568-fdddf99fcd09?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY3MjA&ixlib=rb-1.2.1&q=80"
-                        alt="" srcset="">
-                </div>
-                <div>
-                    <img class="custom-slide"
-                        src="https://images.unsplash.com/photo-1656389426118-0844b68ec32e?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY4Mjk&ixlib=rb-1.2.1&q=80"
-                        alt="" srcset="">
-                </div>
-                <div>
-                    <img class="custom-slide"
-                        src="https://images.unsplash.com/photo-1656376406339-46519f18c397?crop1920x600=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY5MTI&ixlib=rb-1.2.1&q=80"
-                        alt="" srcset="">
-                </div>
-            </div>
-
-        </div>
-        <!-- </div> -->
-    </div>
+    <div class="single-item">
+        <div><img src="./img/S-UI--1.png" alt="FVD-1" /></div>
+        <div><img src="./img/S-UI-2.png" alt="FVD-1" /></div>
+        <div><img src="./img/S-UI-3.png" alt="FVD-1" /></div>
     </div>
     <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
@@ -118,23 +30,11 @@
     <script type="text/javascript" src="./slick/slick.min.js"></script>
 
     <script>
-        $(".slider-single").slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true,
-            fade: true,
-            useTransform: true,
-            asNavFor: ".slider-nav"
-        });
-        $(".slider-nav").slick({
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            asNavFor: ".slider-single",
-            dots: true,
-            focusOnSelect: true,
-            arrows: false
-        });
+        $(document).ready(function() {
+            $('.single-item').slick({
 
+            });
+        });
     </script>
 </body>
 
