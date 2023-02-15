@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Bootstrap CSS -->
+  <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+  <!--  Add the new slick-theme.css if you want the default styling -->
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+
+  <link rel="icon" type="image/x-icon" href="./img/fac-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark p-3 navbar-wrapper">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"><img src="./img/SS-logo.svg" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-2 active" aria-current="page" href="./products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">About us</a>
+            </li>
+
+            <button class="btn btn-primary" style="margin-left: 38px" type="submit">
+              Hello!
+            </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Title -->
+  <section class="section prod-section prod-info" id="prod-info">
+    <div class="container B-title d-flex align-items-center">
+      <img src="./img/baltoro-logo.png" class="baltoro-img " alt="">
+      <div class="m-text flex col-6">
+        <span>Baltoro.io</span>
+        <p>Role: UI/Ux Designer / Animations / Interaction Design</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Summary -->
+  <section class="section prod-section head-1">
+    <div class="container roles d-flex justify-content-between">
+      <div class="summary col-6 ">
+        <span class=".main-head">Summary:</span>
+        <p>Challenging the large data system costs a lot of money, even if you have no idea how much storage
+          and memory we want for the project, and you may pay a lot of money for the compute platform.</p>
+        <p> Baltoro aims to bridge the gap between consumers
+          and the finest services for your projects at a set fee.</p>
+      </div>
+      <div class="platforms col-5">
+        <span class=".main-head">Platforms:</span>
+        <ul>
+          <li>Design System</li>
+          <li>Marketing Website</li>
+          <li>UX Design</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interaction -->
+  <section class="section prod-section interaction" id="interaction">
+    <div class="container section-title">
+      <span id="s-head">Interaction Design</span>
+      <p>Interaction design for a Baltoro.io for data storage of AI and ML projects should include: User flows: Design
+        the user flows for common tasks such as uploading data, organizing data, and accessing data. Data visualization:
+        Provide clear and
+        interactive visualizations of data to help users understand and work with their data. Data organization: Offer
+        intuitive ways for users to categorize, tag, and search for their data. Data management: Allow users to manage
+        their data by
+        providing options for editing, deleting, and exporting data. Access controls: Implement access controls to
+        ensure that only authorized users can access the data stored in the app. User feedback: Incorporate feedback
+        mechanisms such as
+        alerts, notifications, and status messages to inform users about the state of their data and the app. Error
+        handling: Provide clear and concise error messages to help users recover from any errors they may encounter
+        while using the app.
+        Responsive design: Ensure that the app is responsive and can be used on various devices and screen sizes.
+        Usability testing: Test the app with real users to validate the interaction design and make improvements where
+        necessary.
+      </p>
+
+      <div id="potfoliocarousel" class="carousel slide caseStudy-carousel" data-bs-ride="carousel">
+        <div class="container">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/inetraction-design-1.png" alt="swamp" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/inetraction-design-2.png" alt="swamp" />
+            </div>
+            <div class="carousel-item Slide 2">
+              <img class="d-block w-100" src="./img/inetraction-design-3.png" alt="swamp" />
+            </div>
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./img/baltoro-main.png" alt="flight" />
+            </div>
+          </div>
+        </div>
+        <!-- 
+        <button class="carousel-control-prev" type="button" data-bs-target="#robotcarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#robotcarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#potfoliocarousel" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#potfoliocarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#potfoliocarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visual Design Concepts -->
+  <section class="section prod-section vdc" id="vdc">
+    <div class="container vdc-1 d-flex justify-content-between align-items-center">
+      <div class="section-title col-5">
+        <span id="s-head">Visual Design Concepts</span>
+        <p>It was very important to visually communicate the concept of the "typical," a Project data that constantly
+          adjusts based on project scalability and our target audience is not normal user it’s a specific audience to
+          use these dashboards.
+          Projects are displayed on side nav for easily access and every project data is
+          disturbed into different sections. </p>
+        <p> Another goal is design system are consistence.
+          I wanted to avoid merely presented the sharp and unbalance icon library
+          and boring listing screens.
+        </p>
+
+      </div>
+      <div class="section-title col-5">
+        <div id="image-comparison-slider">
+          <img src="./img/baltoro-before.png" alt="before">
+          <div class="img-wrapper">
+            <img src="./img/baltoro-after.png" alt="after">
+          </div>
+          <span class="label label-before">Before</span>
+          <span class="label label-after">After</span>
+          <div class="handle">
+            <div class="handle-line"></div>
+            <div class="handle-circle">
+              <i class="fas fa-chevron-left"></i>
+              <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="handle-line"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Design System -->
+  <section class="section prod-section DS" id="DS">
+    <div class="container section-title">
+      <span id="s-head">Design System</span>
+      <p>We introduced a type scale that was based on display headings, utility headings, paragraph styles, and
+        supporting styles. Our color scale allowed for a branded palette that was flexible with light and dark color
+        variations while we maintained
+        a global interactive, neutral, and feedback palette across all the brands for maximum contrast accessibility.
+      </p>
+      <div class="row">
+        <div class="branding-layout d-flex justify-content-between align-items-center p-4">
+          <div class="col-6">
+            <img class="baltoro-logo img-fluid" src="./img/baltoro-design-system-lgo.png" alt="">
+          </div>
+          <div class="col-5 d-flex flex-column justify-content-end">
+            <img class="fvd-slide" src="./img/B-DS-Font.png" alt="">
+            <img class="fvd-slide" src="./img/B-DS-C.png" alt="">
+          </div>
+        </div>
+      </div>
+      <p>We maintained a consistent design langauge between brands by ensuring a light and dark mode variation for any
+        button, input, or interaction. This allowed for more flexibility in element placement on pages with a wider
+        range of background options
+        while maintaining optimial contrast.</p>
+      <div class="row">
+        <div class="asset-layout p-4">
+          <div class="col-12">
+            <h4>Assets Library
+            </h4>
+
+            <img src="./img/Asstes-Bal.png" alt="asset-layout" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Visual Evolution -->
+  <section class="section prod-section vdc" id="vdc">
+    <div class="container vdc-1 d-flex justify-content-between align-items-center">
+      <div class="section-title col-5">
+        <span id="s-head">Visual Evolution</span>
+        <p>I spent a lot of time trying to apply Baloro’s visual language that we were using on the watch to web apps.
+          This goal was truly challenging. Merging the unique visual style and web platform guidelines took some time to
+          get right.
+        </p>
+      </div>
+      <div class="section-title col-5">
+        <div class="slider slider-single">
+          <div>
+            <img class="main-slide" src="./img/FVD-1.png" alt="" srcset="">
+          </div>
+          <div>
+            <img class="main-slide" src="./img/FVD-2.png" alt="" srcset="">
+          </div>
+          <div>
+            <img class="main-slide" src="./img/FVD-1.png" alt="" srcset="">
+          </div>
+          <div>
+            <img class="main-slide" src="./img/FVD-2.png" alt="" srcset="">
+          </div>
+        </div>
+        <div class="slider slider-nav">
+          <div>
+            <img class="custom-slide" src="./img/FVD-1.png" srcset="">
+          </div>
+          <div>
+            <img class="custom-slide" src="./img/FVD-2.png" alt="" srcset="">
+          </div>
+          <div>
+            <img class="custom-slide" src="./img/FVD-1.png" alt="" srcset="">
+          </div>
+          <div>
+            <img class="custom-slide" src="./img/FVD-2.png" alt="" srcset="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Final Visual Design -->
+  <section class="section prod-section DS" id="DS">
+    <div class="container section-title">
+      <span id="s-head">Final Visual Design </span>
+      <p>After over 50 iterations during about 06 months of design work, over 35 screens and layouts were designed for
+        the final delivery.
+      </p>
+      <div class="row">
+
+        <div class="col-9 mx-auto">
+          <div class="fvd-wrapper">
+            <div><img src="./img/FVD-1.png" alt="FVD-1" /></div>
+            <div><img src="./img/FVD-2.png" alt="FVD-1" /></div>
+            <div><img src="./img/FVD-1.png" alt="FVD-1" /></div>
+            <div><img src="./img/FVD-2.png" alt="FVD-1" /></div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Next Portfolio -->
+  <section class="section next-portfolio-section" id="next-portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-auto">
+          <div class="main-nextportfolio-wrapper d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <div class="logo-box">
+                <img src="./img/Sfinx.png" alt="logo" />
+              </div>
+              <div class="next-portfolio-title">
+                <h2>Sfinx</h2>
+                <h4>Role : UX/UI Designer</h4>
+              </div>
+            </div>
+            <div class="btn-action-wrapper">
+              <div class="btn-light learn-more">
+                Learn more
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Footer-->
+  <footer class="bottom">
+    <div class="container">
+      <div class="footer-content d-flex justify-content-between align-items-center">
+        <span>Copyright © 2023 Source Sketch. All Rights Reserved</span>
+        <span>website</span>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/myscripts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js'></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./slick/slick.min.js"></script>
+  <script type="text/javascript" src="./js/slick-slider.js"></script>
+
+</body>
+
+</html>
