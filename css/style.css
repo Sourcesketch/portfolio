@@ -21,6 +21,7 @@ body {
     align-items: center;
     color: #1d1d28;
     background-color: #4ce5ae;
+    text-decoration: none;
     border: 0px;
     border-radius: 36px;
     font-size: 18px;
@@ -28,6 +29,10 @@ body {
     animation-name: shadowAnimation;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+}
+
+.btn.btn-primary>a {
+    text-decoration: none;
 }
 
 .btn-primary:hover,
@@ -38,6 +43,7 @@ body {
     color: #1d1d28;
     background-color: #42c092;
     box-shadow: 0 0px 0 15px rgba(66, 192, 146, 0.5);
+    text-decoration: none;
 }
 
 .btn-outline-primary {
@@ -151,6 +157,11 @@ body {
 
 .navbar-wrapper .navbar-nav .nav-item {
     list-style: none;
+    text-decoration: none;
+}
+
+.navbar-wrapper .navbar-nav {
+    text-decoration: none;
 }
 
 .navbar-wrapper .navbar-nav .nav-item .nav-link {
@@ -306,6 +317,13 @@ body {
 
 .profile-inner-container .social-icons-wrapper {
     margin-top: 33px;
+    text-decoration: none;
+    color: #1D1D28;
+}
+
+.social-icons-wrapper>button>a {
+    text-decoration: none;
+    color: #1D1D28;
 }
 
 
@@ -905,95 +923,7 @@ img.single-item {
     border-radius: 3rem;
 }
 
-
-/* input (radio) for toggling. hidden - use labels for clicking on */
-
-.switches-container input {
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-}
-
-
-/* labels for the input (radio) boxes - something to click on */
-
-.switches-container label {
-    width: 50%;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    cursor: pointer;
-    color: var(--switches-label-color);
-}
-
-
-/* switch highlighters wrapper (sliding left / right) 
-    - need wrapper to enable the even margins around the highlight box
-*/
-
-.switch-wrapper {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 50%;
-    padding: 0.15rem;
-    z-index: 3;
-    transition: transform .5s cubic-bezier(.77, 0, .175, 1);
-    /* transition: transform 1s; */
-}
-
-
-/* switch box highlighter */
-
-.switch {
-    border-radius: 3rem;
-    background: var(--switch-bg-color);
-    height: 100%;
-}
-
-
-/* switch box labels
-    - default setup
-    - toggle afterwards based on radio:checked status 
-*/
-
-.switch div {
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    display: block;
-    color: var(--switch-text-color);
-    transition: opacity .2s cubic-bezier(.77, 0, .175, 1) .125s;
-    will-change: opacity;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-
-/* slide the switch box from right to left */
-
-.switches-container input:nth-of-type(1):checked~.switch-wrapper {
-    transform: translateX(0%);
-}
-
-
-/* slide the switch box from left to right */
-
-.switches-container input:nth-of-type(2):checked~.switch-wrapper {
-    transform: translateX(100%);
-}
-
-
-/* toggle the switch box labels - first checkbox:checked - show first switch div */
-
-.switches-container input:nth-of-type(1):checked~.switch-wrapper .switch div:nth-of-type(1) {
-    opacity: 1;
-}
-
-
-/* toggle the switch box labels - second checkbox:checked - show second switch div */
-
-.switches-container input:nth-of-type(2):checked~.switch-wrapper .switch div:nth-of-type(2) {
-    opacity: 1;
+.animation.load-btn {
+    position: relative;
+    padding-top: 600px;
 }
